@@ -204,7 +204,8 @@ body {
   border-radius: 4px;
   padding: 16px 32px;
   min-width: 169px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover {
   background-color: var(--pressed-state);
@@ -468,7 +469,9 @@ body {
   letter-spacing: 0.04em;
   padding: 12px 24px 12px;
   border-radius: 4px;
-  transition: background-color color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-navigation-button-item:not(:last-child) {
   margin-right: 24px;
@@ -586,7 +589,8 @@ body {
   border-radius: 50%;
   width: 24px;
   height: 24px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-close-btn-icon {
   width: 8px;
