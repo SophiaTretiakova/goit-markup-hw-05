@@ -360,9 +360,6 @@ body {
 .customers-list {
   display: flex;
 }
-.customers-list-link {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 .customers-list-item:not(:last-child) {
   margin-right: 24px;
 }
@@ -371,6 +368,7 @@ body {
   fill: var(--customers-logo-color);
   width: 104px;
   height: 56px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .customers-img-container:hover,
 .customers-img-container:focus {
